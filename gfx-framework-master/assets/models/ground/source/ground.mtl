@@ -1,0 +1,13 @@
+# Blender 4.0.1 MTL File: 'None'
+# www.blender.org
+
+newmtl Material.001
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd brown_mud_02_diff_2k.jpg
+map_Ns C:/Users/Fujitsu/Desktop/textures/mud/brown_mud_02_rough_2k.jpg
+map_Bump -bm 1.000000 C:/Users/Fujitsu/Desktop/textures/mud/brown_mud_02_nor_gl_2k.exr
