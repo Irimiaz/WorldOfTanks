@@ -3,14 +3,7 @@
 ## :sparkles: Introduction
 
 This project is a tiny graphics framework used by the Computer Graphics Department of the Polytechnic University of Bucharest.
-It is currently used as teaching and study material for a number of courses of increasing complexity, including, but not limited to:
-
--   **`EGC`** Elements of Computer Graphics, BSc year 3 &mdash; [course materials (RO)](https://ocw.cs.pub.ro/courses/egc)
--   **`SPG`** Graphics Processing Systems, BSc year 4 &mdash; [course materials (RO)](https://ocw.cs.pub.ro/courses/spg)
-
-The functionality is split into several modules of increasing difficulty (`m1`, `m2`, etc.).
-
-You can read more about it [in the docs](docs/home.md).
+It is currently used as teaching and study material for a number of courses of increasing complexity.
 
 It has missing and closed-source functionality that you will need to implement.
 
@@ -130,21 +123,6 @@ You can run the project from an IDE, as well as standalone, from anywhere on dis
 
 -   Linux and macOS:
     -   `./bin/Debug/GFXFramework`
-
-To run a certain lab:
-
--   Go into `main.cpp`
--   Find this line:
-    ```cpp
-    World *world = new gfxc::SimpleScene();
-    ```
--   Replace it with whatever you want to run, for example:
-    ```cpp
-    World *world = new m1::Lab1();
-    World *world = new m2::Lab1();
-    World *world = new extra::TessellationShader();
-    // etc.
-    ```
 
 
 ## :book: Documentation
